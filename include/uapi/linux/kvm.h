@@ -2292,6 +2292,7 @@ struct kvm_s390_zpci_op {
 #define KVM_EXIT_KAFL_CREATE_TMP_SNAPSHOT 133
 
 #define KVM_EXIT_KAFL_DEBUG_TMP_SNAPSHOT 134 /* hypercall for debugging / development purposes */
+#define KVM_EXIT_KAFL_CORE_DUMP 140
 
 
 /*
